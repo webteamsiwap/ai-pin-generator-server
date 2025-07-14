@@ -1,4 +1,42 @@
-.env
+# Dependencies
 node_modules/
+
+# Environment variables (contains API keys!)
+.env
+.env.local
+.env.production
+
+# Uploaded images
+uploads/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# OS generated files
 .DS_Store
-npm-debug.log 
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp 
